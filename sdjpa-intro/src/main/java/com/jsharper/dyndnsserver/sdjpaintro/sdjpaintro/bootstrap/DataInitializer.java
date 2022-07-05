@@ -1,11 +1,12 @@
 package com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.bootstrap;
 
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.domain.Book;
 import com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.repositories.BookRepository;
-
+@Profile({"local", "default", "remote-cloud"})
 @Component
 public class DataInitializer implements CommandLineRunner {
 
