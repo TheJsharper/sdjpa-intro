@@ -17,7 +17,8 @@ import com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.repositories.BookReposito
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @DataJpaTest
 @ComponentScan(basePackages = { "com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.bootstrap" })
-public class SpringBootTransacionalJpaTestSlice2 {
+
+public class SpringBootTransacionalJpaTestSlice {
 
 	@Autowired
 	private BookRepository bookRepository;
