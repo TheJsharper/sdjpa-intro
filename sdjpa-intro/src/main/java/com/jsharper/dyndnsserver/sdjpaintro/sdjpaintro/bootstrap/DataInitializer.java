@@ -1,7 +1,6 @@
 package com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.bootstrap;
 
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.domain.Book;
