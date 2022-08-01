@@ -10,7 +10,7 @@ public class SdjpaIntroApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(SdjpaIntroApplication.class, args);
 		 new SpringApplicationBuilder(SdjpaIntroApplication.class)
-         .profiles("local", "remote-cloud", "default", "remote-cloud-pg")
+         .profiles("local", "remote-cloud", "default", "remote-cloud-pg", "remote-cloud-mgdb")
          .run(args);
 	}
 

@@ -7,7 +7,7 @@ import com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.domain.Book;
 import com.jsharper.dyndnsserver.sdjpaintro.sdjpaintro.repositories.BookRepository;
 
 @Component
-public class DataInitializer implements CommandLineRunner {
+public class DataInitializer /* implements CommandLineRunner */{
 
 	private final BookRepository bookRepository;
 
@@ -15,7 +15,7 @@ public class DataInitializer implements CommandLineRunner {
 		this.bookRepository = bookRepository;
 	}
 
-	@Override
+	//@Override
 	public void run(String... args) throws Exception {
 
 		var bookDDD = new Book("Domain Driven Design", "123", "RandomHaouse");
